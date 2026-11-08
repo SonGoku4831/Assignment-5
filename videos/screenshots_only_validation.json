@@ -1,0 +1,12 @@
+{
+  "duration_seconds": 105,
+  "resolution": "1920x1080",
+  "fps": 24,
+  "frames": 2520,
+  "audio_streams": 0,
+  "chapters": 0,
+  "added_visual_overlays": false,
+  "bytes": 2202556,
+  "sha256": "1f895dcec3688efd427f5fda699afeb24761112d46a042ad3f3c115b49d0e374",
+  "git_sha": "d6c0616543bde3dd4089ef1e3898ef4c39a8fb60"
+}
