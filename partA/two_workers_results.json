@@ -1,0 +1,67 @@
+[
+  {
+    "concurrency": 1,
+    "requests": 816,
+    "rps": 204.0,
+    "p50_ms": 3.7,
+    "p95_ms": 10.2,
+    "p99_ms": 12.2,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 816
+    }
+  },
+  {
+    "concurrency": 2,
+    "requests": 1342,
+    "rps": 335.5,
+    "p50_ms": 5.2,
+    "p95_ms": 10.8,
+    "p99_ms": 15.7,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 1342
+    }
+  },
+  {
+    "concurrency": 4,
+    "requests": 1732,
+    "rps": 433.0,
+    "p50_ms": 8.5,
+    "p95_ms": 16.2,
+    "p99_ms": 22.0,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 1732
+    }
+  },
+  {
+    "concurrency": 8,
+    "requests": 1802,
+    "rps": 450.5,
+    "p50_ms": 16.5,
+    "p95_ms": 30.4,
+    "p99_ms": 40.1,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 1802
+    }
+  },
+  {
+    "concurrency": 16,
+    "requests": 1797,
+    "rps": 449.2,
+    "p50_ms": 33.5,
+    "p95_ms": 61.4,
+    "p99_ms": 79.9,
+    "errors": 0,
+    "replicas": 1,
+    "versions": {
+      "v1": 1797
+    }
+  }
+]

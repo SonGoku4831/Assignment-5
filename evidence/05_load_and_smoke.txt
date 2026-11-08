@@ -1,0 +1,25 @@
+$ /workspace/work/venv/bin/python measure.py
+
+ concurrency  requests   rps  p50_ms  p95_ms  p99_ms  errors  replicas     versions
+           1      1020 255.0     3.6     5.9     8.6       0         1 {'v1': 1020}
+           2      1206 301.5     5.9    11.3    17.4       0         1 {'v1': 1206}
+           4      1223 305.8    11.9    21.3    28.3       0         1 {'v1': 1223}
+           8      1315 328.8    22.6    39.6    58.0       0         1 {'v1': 1315}
+          16      1319 329.8    46.0    74.3   110.8       0         1 {'v1': 1319}
+batch: [{'batch': 1, 'mean_ms_per_row': 3.789879959999922}, {'batch': 100, 'mean_ms_per_row': 0.0501413427999978}]
+p95_ms: 6.193247599998129
+version PASS
+finite_positive PASS
+distance_sanity PASS
+traffic_sanity PASS
+invalid_422 PASS
+p95_latency PASS
+TWO WORKERS
+  concurrency  requests   rps  p50_ms  p95_ms  p99_ms  errors  replicas     versions
+           1       816 204.0     3.7    10.2    12.2       0         1  {'v1': 816}
+           2      1342 335.5     5.2    10.8    15.7       0         1 {'v1': 1342}
+           4      1732 433.0     8.5    16.2    22.0       0         1 {'v1': 1732}
+           8      1802 450.5    16.5    30.4    40.1       0         1 {'v1': 1802}
+          16      1797 449.2    33.5    61.4    79.9       0         1 {'v1': 1797}
+
+Exit status: 0

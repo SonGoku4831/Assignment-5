@@ -1,0 +1,6 @@
+$ /workspace/work/venv/bin/python eta_data.py
+
+v1: Pipeline                     fresh-data MAE = 11.95 min
+v2: GradientBoostingRegressor    fresh-data MAE = 6.10 min
+
+Exit status: 0

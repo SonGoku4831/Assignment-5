@@ -1,0 +1,9 @@
+$ rg 'candidate share:|customers: PASS|redeploy: PASS|returns to prod: PASS|overrides: PASS' partC/verify_output.txt
+
+candidate share: 0.212
+200 repeat customers: PASS
+200 after redeploy: PASS
+no candidate returns to prod: PASS
+50 overrides: PASS
+
+Exit status: 0
